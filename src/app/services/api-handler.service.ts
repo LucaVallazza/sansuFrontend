@@ -12,7 +12,7 @@ export class ApiHandlerService {
 constructor(private http: HttpClient) { }
   // private http: HttpClient = inject(HttpClient)
 
-  private API_URL: string = 'http://localhost:3000/api';
+  private API_URL: string = 'https://sansu-backend-jsfz.vercel.app/api';
 
   userName: string;
 
