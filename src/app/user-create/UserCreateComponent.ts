@@ -15,7 +15,7 @@ import { Router } from '@angular/router';
   styleUrl: './user-create.component.scss',
 })
 export class UserCreateComponent implements OnInit {
-  private API_URL: string = 'http://localhost:3000/api';
+  private API_URL: string = 'https://sansu-frontend.vercel.app/api';
 
   constructor(private apiHandler: ApiHandlerService) {}
 
